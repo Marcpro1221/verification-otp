@@ -22,10 +22,10 @@
         <p class="poppins-regular">A four-digit code has been sent to your email name@domain.com.<br>
           Please enter the code below to verify your email address.</p>
           <div id="OTP-digit-container">
-            <input type="number" class="otp-digit merriweather-bold" placeholder="0" maxlength="1">
-            <input type="number" class="otp-digit merriweather-bold" placeholder="0" maxlength="1">
-            <input type="number" class="otp-digit merriweather-bold" placeholder="0" maxlength="1">
-            <input type="number" class="otp-digit merriweather-bold" placeholder="0" maxlength="1">
+            <input type="number" class="otp-digit merriweather-bold" id="firstInput" placeholder="0" maxlength="1" min="0" max="1" required>
+            <input type="number" class="otp-digit merriweather-bold" id="secondInput" placeholder="0" maxlength="1">
+            <input type="number" class="otp-digit merriweather-bold" id="thirdInput" placeholder="0" maxlength="1">
+            <input type="number" class="otp-digit merriweather-bold" id="fourthInput" placeholder="0" maxlength="1">
           </div>
           <button type="button" class="otp-btn">Verify OTP</button>
       </div>
